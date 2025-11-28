@@ -483,3 +483,5 @@ class FactoryBuilder<T1,T2,T3,T4,T5,T6,T7,T8, TProduct>
     => new FactoryBuilder<T1, T2, T3, T4, T5, T6, T7, TProduct>((arg1, arg2, arg3, arg4, arg5, arg6, arg7) =>
       _constructor(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8));
 }
+
+// Additional arg lengths available via `Factory.cs.js`
